@@ -1,0 +1,25 @@
+1. Why should we use functions at all?
+- function is a set of instructions and we should use functions 
+when we want to operate that set of instructions repeatedly 
+
+2. How to define/declare a function?
+- def NAME_OF_FUNCTION( PARAMETERS ):
+STATEMENTS
+
+3. How to call/use a function?
+NAME_OF_FUNCTION(PARAMETERS)
+
+4. What is return, why and how do we use it?
+- indicate what is returned from the function
+- we use return for variables that we want to use outside the function
+(because parameters in the funtion belong to the function scope and not in the global scope)
+
+5. Do we have to use return in every function?
+- No
+
+6. What are function arguments/parameters, why and how we use it?
+- The variables used in the function
+for example: def draw_star(x,y,length) => x,y,length are parameters
+
+7. How to use function from a different file other than our currently working file?
+- to call a function from another module: from MODULE import FUNCTION
